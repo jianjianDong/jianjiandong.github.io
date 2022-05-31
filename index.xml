@@ -1,10 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
+    <link>https://jianjiandong.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 May 2022 15:46:55 +0800</lastBuildDate>
+    
+        <atom:link href="https://jianjiandong.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Looper</title>
+        <link>https://jianjiandong.github.io/post/looper/</link>
+        <pubDate>Tue, 31 May 2022 15:46:55 +0800</pubDate>
+        
+        <guid>https://jianjiandong.github.io/post/looper/</guid>
+        <description>My New Hugo Site https://jianjiandong.github.io/post/looper/ -&lt;h2 id=&#34;android-mainlooper-监听的三个fd&#34;&gt;Android MainLooper 监听的三个fd&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Mesasge fd&lt;/li&gt;
+&lt;li&gt;InputChannel fd&lt;/li&gt;
+&lt;li&gt;Vsync fd&lt;/li&gt;
+&lt;/ol&gt;
+- https://jianjiandong.github.io/post/looper/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Blog</title>
+        <link>https://jianjiandong.github.io/post/blog/</link>
+        <pubDate>Sat, 07 May 2022 17:25:39 +0800</pubDate>
+        
+        <guid>https://jianjiandong.github.io/post/blog/</guid>
+        <description>My New Hugo Site https://jianjiandong.github.io/post/blog/ -&lt;h1 id=&#34;this-is-first-blog&#34;&gt;This is first Blog&lt;/h1&gt;
+&lt;h2 id=&#34;how-to-build-hugo-blog&#34;&gt;how to build hugo blog&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;hugo new site myblog // 创建本地文件&lt;/li&gt;
+&lt;li&gt;git clone &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-agency-theme&#34;&gt;https://github.com/digitalcraftsman/hugo-agency-theme&lt;/a&gt; //下载主题&lt;/li&gt;
+&lt;li&gt;hugo server -t hugo-agency-theme &amp;ndash;buildDrafts //启动hugo&lt;/li&gt;
+&lt;li&gt;hugo new post/blog.md //新建文章&lt;/li&gt;
+&lt;li&gt;hugo &amp;ndash;theme=hugo-agency-theme &amp;ndash;baseUrl=&amp;ldquo;&lt;a href=&#34;https://xxx.github.io/%22&#34;&gt;https://xxx.github.io/&amp;quot;&lt;/a&gt; &amp;ndash;buildDrafts 将个人博客部署到github仓库&lt;/li&gt;
+&lt;li&gt;将生成的publi文件夹推到远程仓库&lt;/li&gt;
+&lt;li&gt;访问地址 &lt;a href=&#34;https://jianjiandong.github.io/&#34;&gt;https://jianjiandong.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+- https://jianjiandong.github.io/post/blog/ - </description>
+        </item>
+    
+    
   </channel>
-</rss>
+</rss> 
